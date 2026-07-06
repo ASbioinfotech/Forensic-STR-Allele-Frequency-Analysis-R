@@ -1,0 +1,35 @@
+Forensic STR Allele Frequency Analysis Report
+=============================================
+
+Project Title:
+Forensic STR Allele Frequency Analysis Using R
+
+Data Source:
+European STR allele frequency database accessed using the norSTR R package.
+
+Analysis Performed:
+- STR allele frequency data extraction
+- Marker-wise allele frequency summary
+- Identification of most common STR alleles
+- Marker diversity analysis
+- Expected heterozygosity calculation
+- Visualization of forensic STR marker informativeness
+
+Total STR markers analyzed: 45
+Total allele frequency records analyzed: 522
+
+Most informative STR marker based on expected heterozygosity:
+SE33 with expected heterozygosity = 0.9457
+
+Top marker based on number of observed alleles:
+SE33 with 35 observed alleles.
+
+Interpretation:
+STR markers with higher expected heterozygosity are generally more informative for forensic identification because they show greater genetic variation in the population. Markers such as SE33 may provide stronger discriminatory power in forensic DNA profiling compared to markers with lower heterozygosity.
+
+Real-Life Relevance:
+This type of analysis can support forensic genetics education, population STR marker evaluation, missing person identification research, and DNA profile interpretation concepts.
+
+Limitations:
+This project is for educational and portfolio purposes only. It uses public STR allele frequency data and simplified calculations. It should not be used for real forensic casework or legal decision-making without validated forensic laboratory methods.
+
